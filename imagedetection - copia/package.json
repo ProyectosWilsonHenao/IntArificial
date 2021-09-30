@@ -1,0 +1,19 @@
+{
+  "name": "deteccion",
+  "version": "1.0.0",
+  "description": "proyecto para detectar imagenes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deteccion"
+  ],
+  "author": "wilson henao",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs-node": "^2.4.0"
+  }
+}
